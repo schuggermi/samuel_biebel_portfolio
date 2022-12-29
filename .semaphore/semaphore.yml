@@ -35,7 +35,3 @@ blocks:
           commands:
             - cd samuel_biebel_portfolio
             - python3 manage.py check --deploy
-        - name: Style
-          commands:
-            - pip install flake8
-            - flake8 samuel_biebel_portfolio/ --max-line-length=127
